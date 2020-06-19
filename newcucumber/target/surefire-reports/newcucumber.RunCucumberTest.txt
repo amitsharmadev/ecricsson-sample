@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: newcucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.554 sec <<< FAILURE!
+Sunday isn't Friday(Is it Friday yet?)  Time elapsed: 0.133 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at newcucumber.StepDefinitions.today_is_Sunday(StepDefinitions.java:14)
+	at ✽.today is Sunday(classpath:newcucumber/check_is_it_Friday.feature:5)
+

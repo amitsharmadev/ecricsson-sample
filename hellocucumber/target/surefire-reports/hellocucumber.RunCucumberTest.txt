@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: hellocucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.563 sec <<< FAILURE!
+(Is it Friday yet?)  Time elapsed: 0.01 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<H[i] Nupur> but was:<H[ello] Nupur>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at hellocucumber.StepDefinitions.returning_data(StepDefinitions.java:50)
+	at ✽.It returns Hello "Hi Nupur"(classpath:hellocucumber/is_it_Friday.feature:13)
+
+Title of your scenario(Title of your feature)  Time elapsed: 0.028 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "I want to write a step with precondition" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I want to write a step with precondition")
+public void i_want_to_write_a_step_with_precondition() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given("some other precondition")
+public void some_other_precondition() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I complete action")
+public void i_complete_action() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
